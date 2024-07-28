@@ -1,0 +1,110 @@
+Great, thanks for the details! Here’s a draft for your webpage based on the provided information. I'll create a single HTML file that includes a brief introduction, social media link, and a basic layout for your tea shop.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaiGuys - Ottawa's Finest Tea Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8b0000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #showcase {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            color: #fff;
+            height: 500px;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: #8b0000 3px solid;
+        }
+        .box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #8b0000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .social {
+            margin-top: 10px;
+        }
+        .social a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to ChaiGuys</h1>
+            <p>Ottawa's Finest Tea Shop</p>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Discover the Best Tea in Ottawa</h1>
+            <p>From traditional chai to exotic blends, ChaiGuys offers a delightful selection of teas to please every palate.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>ChaiGuys is dedicated to bringing the rich and aromatic flavors of authentic chai and other premium teas to the heart of Ottawa. Our cozy shop provides a warm and welcoming atmosphere for tea enthusiasts and newcomers alike. Whether you're looking for a quick cup on the go or a place to relax and enjoy, ChaiGuys is your go-to destination for all things tea.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Follow us on Instagram: <a href="https://www.instagram.com/chaiguysottawa/" target="_blank">Instagram.com/chaiguysottawa</a></p>
+            <p>Visit us in Ottawa for a delightful tea experience!</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ChaiGuys. All Rights Reserved.</p>
+            <div class="social">
+                <a href="https://www.instagram.com/chaiguysottawa/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+```
+
+Feel free to let me know if there are any changes or additional sections you'd like to add!
